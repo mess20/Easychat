@@ -3,15 +3,13 @@ $("body").append("<div id=\"select\" style=\"position:fixed;top:40vh;left:22vw\"
 $("#option1").click( function(){
 $("#select").remove();
 var script = document.createElement('script');
-script.src = "https://mess20.github.io/easychat.js";
+script.src = "https://mess20.github.io/Extension/easychat.js";
 $('head')[0].appendChild(script);
 });
-
-
 $("#option2").click( function(){
 $("#select").remove();
 var script = document.createElement('script');
-script.src = "https://mess20.github.io/easychat(pc).js";
+script.src = "https://mess20.github.io/Extension/easychat(pc).js";
 $('head')[0].appendChild(script);
 })
 
