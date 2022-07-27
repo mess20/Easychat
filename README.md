@@ -34,6 +34,8 @@ $('head')[0].appendChild(script);
 #### 自动续房
 采用每10分钟报时一次的方法实现。
 
+- 手机端只有留在浏览器才能确保该功能正常运行。
+
 #### 自动小字
 按post键发言自动小字；键盘直接发送不变。
 
@@ -74,10 +76,11 @@ $('head')[0].appendChild(script);
 
 ## 插件 DOLLARS Extension
 
-安装方法：
+* 安装方法：
 - （电脑端）前往[页面](https://github.com/mess20/Extension) > 点击 code > 点击 download zip 下载压缩文件
 - 进入拓展程序 > 开启开发者模式 > 安装插件（load > 选择已下载的拓展文件）
 
+* 手机端不支持后台运行。
 
 
 
