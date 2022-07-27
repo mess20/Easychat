@@ -1,4 +1,4 @@
-# Extension/easychat.js
+# Easychat
 
 用于DOLLARS聊天室的简易脚本，方便小白使用。
 
