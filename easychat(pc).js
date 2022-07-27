@@ -34,7 +34,7 @@ $("[name='message']").val ("/me"+datetime);$("[name='post']").submit();};
 $("#o1-7").click(function(){
 $("#o2-7").css({"display":"block"});
 $("#o1-7").css({"display":"none"});
-$("body").append("<div id=\"tuchuang\" style=\"background:rgba(255,255,245,0.9);border:solid rgba(200,200,160,0.4) 0.1px;padding:30px 20px;position:fixed;top:20vh;bottom:40vh;right:5vw;left:45vw;border-radius:10px;box-shadow:10px 10px 30px rgba(250,250,245,0.3);\">   <a href=\"https://imgtu.com/\">路过图床</a><br> <a href=\"https://imgurl.org/\">imgURL</a><br> <a href=\"https://imgbb.com/\">imgBB</a><br> <a href=\"https://postimg.cc/\">postimage</a><br> <a href=\"https://niupic.com/\">牛图网</a><br> <a href=\"http://i.miaosu.bid/\">妙速图床</a><br> <a href=\"https://imgkr.com/\">图壳</a><br> <a href=\"https://catbox.moe/\">Catbox</a><br> <a href=\"https://jpg.dog/\">Doge先生</a><br> <a href=\"https://imgs.top/\">映画の图床</a><br>  </div>");
+$("body").append("<div id=\"tuchuang\" style=\"background:rgba(255,255,245,0.9);border:solid rgba(200,200,160,0.4) 0.1px;padding:30px 20px;position:fixed;bottom:40vh;right:5vw;left:45vw;border-radius:10px;box-shadow:10px 10px 30px rgba(250,250,245,0.3);\">   <a href=\"https://imgtu.com/\">路过图床</a><br> <a href=\"https://imgurl.org/\">imgURL</a><br> <a href=\"https://imgbb.com/\">imgBB</a><br> <a href=\"https://postimg.cc/\">postimage</a><br> <a href=\"https://niupic.com/\">牛图网</a><br> <a href=\"http://i.miaosu.bid/\">妙速图床</a><br> <a href=\"https://imgkr.com/\">图壳</a><br> <a href=\"https://catbox.moe/\">Catbox</a><br> <a href=\"https://jpg.dog/\">Doge先生</a><br> <a href=\"https://imgs.top/\">映画の图床</a><br>  </div>");
 
 
 $("#o2-7").click(function(){
