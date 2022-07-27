@@ -2,16 +2,20 @@
     "name": "DOLLARS Extension",
     "version": "1.0",
     "manifest_version": 2,
-  "icons": {"16":"icon.png"},
-  "background": {
-     "scripts": ["https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js","background.js"],
-   "persistent": true
+  "icons": {
+"16":"icon.png",
+"32":"icon.png",
+"48":"icon.png",
+"128":"icon0.png"
+},
+"browser_action": {
+   "default_icon":"icon.png"
   },
     "content_scripts": [
         { 
 "matches":["https://drrr.com/room/*"], 
-"js": ["https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js","content_scripts.js"],
-"run_at":"document_end"
+"js": ["jquery.js","content_script.js"],
+"run_at":"document_idle"
 }
     ]
 }
