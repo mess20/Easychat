@@ -6,6 +6,8 @@
 
 ![移动端](http://i.miaosu.bid/data/f_31711428.jpg)
 ![PC端](https://s3.bmp.ovh/imgs/2022/07/23/48a6442f429a54d1.jpg)
+
+
 ## 使用方法
 - 电脑端
 
@@ -76,11 +78,11 @@ $('head')[0].appendChild(script);
 
 ## 插件 DOLLARS Extension
 
-* 安装方法：
-- （电脑端）前往[页面](https://github.com/mess20/Extension) > 点击 code > 点击 download zip 下载压缩文件
-- 进入拓展程序 > 开启开发者模式 > 安装插件（load > 选择已下载的拓展文件）
+- 安装方法：
+① （电脑端）前往[页面](https://github.com/mess20/Extension) > 点击 code > 点击 download zip 下载压缩文件
+② 进入拓展程序 > 开启开发者模式 > 安装插件（load > 选择已下载的拓展文件）
 
-* 手机端不支持后台运行。
+- 手机端不支持后台运行。
 
 
 
