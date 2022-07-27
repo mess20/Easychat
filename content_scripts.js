@@ -1,16 +1,31 @@
-$("body").append("<div id=\"select\" style=\"position:fixed;top:40vh;left:22vw\"><button id=\"option1\" style=\"font-weight:600;border:none;border-radius:30px;background:lightblue;box-shadow:rgba(100,100,255,0.2) 5px 5px 5px 0px;padding:5px 15px;\">手机模式</button><button id=\"option2\" style=\"font-weight:600;margin-left:10px;border:none;border-radius:30px;background:lightblue;box-shadow:rgba(200,200,250,0.3) 5px 5px 5px 0px;padding:5px 15px;\">电脑模式</button></div>");
+ function isMobile() {
+   var userAgentInfo = navigator.userAgent;
+   var mobileAgents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+   var mobile_flag = false;
+ 	//根据userAgent判断是否是手机
+    for (var v = 0; v < mobileAgents.length; v++) {
+       if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+             mobile_flag = true;
+             break;
+       }
+    }
+    var screen_width = window.screen.width;
+    var screen_height = window.screen.height;
+   //根据屏幕分辨率判断是否是手机
+   if (screen_width > 325 && screen_height < 750) {
+       mobile_flag = true;
+   }
+   return mobile_flag;
+}
 
-$("#option1").click( function(){
-$("#select").remove();
-var script = document.createElement('script');
+var mobile_flag = isMobile();
+if (mobile_flag) {
+	var script = document.createElement('script');
 script.src = "https://mess20.github.io/Extension/easychat.js";
 $('head')[0].appendChild(script);
-});
-$("#option2").click( function(){
-$("#select").remove();
+}else{
 var script = document.createElement('script');
 script.src = "https://mess20.github.io/Extension/easychat(pc).js";
 $('head')[0].appendChild(script);
-})
-
+}
 
