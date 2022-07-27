@@ -75,7 +75,7 @@ $('head')[0].appendChild(script);
 ## 插件 DOLLARS Extension
 
 安装方法：
-- （电脑端）前往页面（https://github.com/mess20/Extension） > 点击 code > 点击 download zip 下载压缩文件
+- （电脑端）前往[页面](https://github.com/mess20/Extension) > 点击 code > 点击 download zip 下载压缩文件
 - 进入拓展程序 > 开启开发者模式 > 安装插件（load > 选择已下载的拓展文件）
 
 
