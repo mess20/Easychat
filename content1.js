@@ -1,4 +1,4 @@
-$("[name='message']").onchange = function(){
+$("[name='message']").bind("change", function(){
 $("[name='post']").submit();
-};
+})
 
