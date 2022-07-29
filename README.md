@@ -14,7 +14,7 @@
 “F12”键 → console 输入以下代码：
 ```
 var script = document.createElement('script');
-script.src = "https://mess20.github.io/Extension/content_script.js";
+script.src = "https://mess20.github.io/DOLLARS-Extension.js";
 $('head')[0].appendChild(script);
 ```
 
@@ -76,9 +76,9 @@ $('head')[0].appendChild(script);
 - HSL、HSLA 例：`hsl(0,100%,50%)`，`hsla(0,100%,50%,1)`
 
 
-## 插件 DOLLARS Extension
+## 插件 [DOLLARS Extension](https://github.com/mess20/DOLLARS-Extension)
 
-### 安装方法：
+### 安装方法
 下载：
 
 ① （电脑端）前往[页面](https://github.com/mess20/Extension) > 点击 code > 点击 download zip 下载压缩文件
