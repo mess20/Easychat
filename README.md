@@ -14,7 +14,7 @@
 “F12”键 → console 输入以下代码：
 ```
 var script = document.createElement('script');
-script.src = "https://mess20.github.io/DOLLARS-Extension.js";
+script.src = "https://mess20.github.io/DOLLARS-Extension/content.js";
 $('head')[0].appendChild(script);
 ```
 
