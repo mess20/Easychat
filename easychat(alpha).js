@@ -77,6 +77,41 @@ setInterval(function(){
 
 
 	
+//上传图片（不行）
+
+
+$("#o1-7").click(function(){
+$("#o2-7").css({"display":"block"});
+$("#o1-7").css({"display":"none"});
+$("body").append("<label id=\"label1\" style=\"border-radius:30px;background:lightblue;box-shadow:rgba(100,100,255,0.2) 5px 5px 5px 0px;padding:5px 15px;position:fixed;top:40vh;left:30vw;right:30vw\">点击选择图片<input type=\"file\" style=\"display:none;\" onchange=\"imgAdd(this)\" ></label>");
+});
+
+function imgAdd(i) {  
+const reader = new FileReader();   
+reader.readAsDataURL(i.files[0]);
+reader.onload = function(){	
+$('#url-input').val(reader.result);
+$('#url-icon').click();
+$('#url-button-add').click();
+$("#label1").remove();
+}
+
+};
+
+
+
+
+
+$("#o2-7").click(function(){
+$("#o1-7").css({"display":"block"});
+$("#o2-7").css({"display":"none"});
+$('#url-button-del').click();
+});
+
+
+
+
+
 
 
 
