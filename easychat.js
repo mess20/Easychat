@@ -150,10 +150,9 @@ reader.onload = function(){
 $("body").css({"background":"url(' "+reader.result +" ') no-repeat"});
 $("body").css({"background-size":"cover"});
 $("body").css({"background-attachment":"fixed"});	
-var c1=setInterval(function(){
+$('body').bind('DOMNodeInserted', function(){
 $(".tail-mask").css({"display":"none"});	
-$(".tail-wrap").css({"display":"none"});	
-},100);
+$(".tail-wrap").css({"display":"none"});	});
 $("#label").remove()
 }
 
@@ -161,9 +160,9 @@ $("#o2-4").click(function(){
 $("#o1-4").css({"display":"block"});
 $("#o2-4").css({"display":"none"});
 $("body").css({"background":"black"});
-clearInterval(c1);
+$('body').unbind();
 $(".tail-mask").css({"display":"block"});	
-$(".tail-wrap").css({"display":"block"});
+$(".tail-wrap").css({"display":"block"});	
 })
 
 
