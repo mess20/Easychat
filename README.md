@@ -81,7 +81,7 @@ $('head')[0].appendChild(script);
 
 
 ## 插件 [DOLLARS Extension](https://github.com/mess20/DOLLARS-Extension)
-
+功能与脚本完全相同。
 ### 安装方法
 下载：
 
