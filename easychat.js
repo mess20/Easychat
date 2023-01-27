@@ -26,8 +26,8 @@ $("#cp").css({"width":"0"});
 function a1(){
     let d = new Date();
     let datetime =d.getHours() + ":" + d.getMinutes();   
-$("[name='message']").val ("/me"+datetime);$("[name='post']").submit();};
-
+$.post("#",{message :"/me"+datetime});$("[name='post']").submit();
+}
 //上传图片
 
 
