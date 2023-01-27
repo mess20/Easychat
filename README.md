@@ -98,9 +98,9 @@ $('head')[0].appendChild(script);
 - 如果有不清楚的，附上 [说明](https://mess20.github.io/TiddlyWiki/Tempor/code#%E3%80%90%E9%99%84%E5%BD%95%E8%AF%B4%E6%98%8E%E3%80%91%EF%BC%88android%E7%B3%BB%E7%BB%9F%EF%BC%89:%E3%80%90%E9%99%84%E5%BD%95%E8%AF%B4%E6%98%8E%E3%80%91%EF%BC%88android%E7%B3%BB%E7%BB%9F%EF%BC%89%20Tempor%20%E6%83%A8%E7%97%9B%E7%9A%84%E6%95%99%E8%AE%AD%20%E5%BF%AB%E6%8D%B7%E9%94%AE)
 
 
+### 更新日志
 
-
-
+2023/1/27 解决程序夺输入框的问题
 
 
 
