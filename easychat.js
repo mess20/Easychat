@@ -1,5 +1,5 @@
 
-$("body").append("<div id=\"b1\" style=\"display:none;width:50px;height:50px;background:rgba(11, 243, 201,0.5);border-radius:30px;position:fixed;right:30px;bottom:130px;\"></div><div id=\"b\" style=\"width:50px;height:50px;background:rgb(11, 243, 201);border-radius:30px;position:fixed;right:30px;bottom:130px;\"></div><div id=\"cp\" style=\"margin-left:-50px;border-radius:15px;padding-top:32px;padding-bottom:32px;padding-left:19px;color:#000;font-size:19px;font-weight:700;width:0;height:50vh;background:rgba(255,245,225,1);position:fixed;left:0;bottom:50px;display:flex;flex-direction:column;justify-content:space-around;transition: all 0.25s;\">    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>上传图片</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-7\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-7\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>自动续房</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-1\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-1\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>自动小字</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-2\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-2\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>进房提示</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-3\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-3\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>      <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>更换背景</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-4\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-4\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>更换字体</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-5\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-5\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>字体大小</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-6\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-6\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>      <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>字体颜色</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-8\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-8\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>  </div>")
+$("body").append("<div id=\"b1\" style=\"display:none;width:50px;height:50px;background:rgba(11, 243, 201,0.5);border-radius:30px;position:fixed;right:30px;bottom:130px;\"></div><div id=\"b\" style=\"width:50px;height:50px;background:rgb(11, 243, 201);border-radius:30px;position:fixed;right:30px;bottom:130px;\"></div><div id=\"cp\" style=\"margin-left:-50px;border-radius:15px;padding-top:32px;padding-bottom:32px;padding-left:19px;color:#000;font-size:19px;font-weight:700;width:0;height:50vh;background:rgba(255,245,225,1);position:fixed;left:0;bottom:50px;display:flex;flex-direction:column;justify-content:space-around;transition: all 0.25s;\">    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>上传图片</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-7\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-7\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>自动续房</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-1\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-1\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>自动小字</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-2\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-2\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>进房提示</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-3\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-3\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>      <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>更换背景</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-4\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-4\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>更换字体</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-5\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-5\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>     <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>字体大小</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-6\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-6\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>      <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>字体颜色</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-8\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-8\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div>    <div style=\"display:flex;align-items:center;justify-content:space-around;\"><div>延迟发送</div><div class=\"f\" style=\"margin-left:15px;width:50px;height:30px;background:rgb(255,245,225);border:solid black 5px;border-radius:30px;\"></div><div id=\"o1-9\" style=\"width:20px;height:20px;background:rgb(0,0,0);border-radius:20px;position:relative;left:-45px;bottom:0px;\"></div><div id=\"o2-9\" style=\"width:20px;height:20px;background:#6483B0;border-radius:20px;position:relative;bottom:0px;left:-26px;\"></div></div></div>")
 
 $('#b').one('click', function() {
 $("#o2-1").css({"display":"none"})
@@ -10,6 +10,7 @@ $("#o2-5").css({"display":"none"});
 $("#o2-6").css({"display":"none"});
 $("#o2-7").css({"display":"none"});
 $("#o2-8").css({"display":"none"});
+$("#o2-9").css({"display":"none"});
 });
 $("#b").click(function(){
 $("#b").css({"display":"none"});
@@ -236,6 +237,42 @@ $("body").css({"background-attachment":"fixed"});
 
 
 
+//定时发送
+
+$("#o1-9").click(function(){
+
+$("#o2-9").css({"display":"block"});
+
+$("#o1-9").css({"display":"none"});
+
+var content = prompt("请输入需发送的文本","");
+var time = prompt("请输入想延迟的时间，格式：1秒输入1000，如10秒输入10000，1分钟60000","");
+
+var e = setTimeout(function(){
+
+$("[name='message']").val (content);$("[name='post']").submit();
+
+}, time);
+
+  
+
+$("#o2-9").click(function(){
+
+$("#o1-9").css({"display":"block"});
+
+$("#o2-9").css({"display":"none"});
+
+
+clearTimeout(e);  
+
+});
+
+  
+  
+
+});
+
+  
 
 
 
