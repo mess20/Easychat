@@ -79,6 +79,8 @@ $('head')[0].appendChild(script);
 - RGB、RGBA 例：`rgb(0,0,0)`，`rgba（0,0,0,1）`
 - HSL、HSLA 例：`hsl(0,100%,50%)`，`hsla(0,100%,50%,1)`
 
+#### 延时发送
+
 
 ## 插件 [DOLLARS Extension](https://github.com/mess20/DOLLARS-Extension)
 功能与脚本完全相同。
@@ -101,6 +103,7 @@ $('head')[0].appendChild(script);
 ### 更新日志
 
 2023/1/27 解决程序夺输入框的问题
+
 2023/1/31 优化CSS，新增延时发送功能
 
 
