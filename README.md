@@ -92,27 +92,7 @@ $('head')[0].appendChild(script);
 
 ## 插件 [DOLLARS Extension](https://github.com/mess20/DOLLARS-Extension)
 功能与脚本完全相同。
-### 安装方法
-下载：
 
-① （电脑端）前往[页面](https://github.com/mess20/DOLLARS-Extension) > 点击 code > 点击 download zip 下载压缩文件
-
-② 直接点击[链接](https://codeload.github.com/mess20/DOLLARS-Extension/zip/refs/heads/main)下载压缩文件
-
-安装：进入拓展程序 > 开启开发者模式 > 点击 load > 选择已下载至本地的拓展文件
-
-### 使用说明
-
-- 手机端不支持后台运行、锁屏时运行。
-
-- 如果有不清楚的，附上 [说明](https://mess20.github.io/TiddlyWiki/Tempor/code#%E3%80%90%E9%99%84%E5%BD%95%E8%AF%B4%E6%98%8E%E3%80%91%EF%BC%88android%E7%B3%BB%E7%BB%9F%EF%BC%89:%E3%80%90%E9%99%84%E5%BD%95%E8%AF%B4%E6%98%8E%E3%80%91%EF%BC%88android%E7%B3%BB%E7%BB%9F%EF%BC%89%20Tempor%20%E6%83%A8%E7%97%9B%E7%9A%84%E6%95%99%E8%AE%AD%20%E5%BF%AB%E6%8D%B7%E9%94%AE)
-
-
-### 更新日志
-
-2023/1/27 解决程序夺输入框的问题
-
-2023/1/31 优化CSS，新增延时发送功能
 
 
 
