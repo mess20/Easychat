@@ -80,7 +80,15 @@ $('head')[0].appendChild(script);
 - HSL、HSLA 例：`hsl(0,100%,50%)`，`hsla(0,100%,50%,1)`
 
 #### 延时发送
+时间格式要求：1s输入1000
 
+例：
+
+1s = 1000
+
+1m = 60000
+
+10m = 600000
 
 ## 插件 [DOLLARS Extension](https://github.com/mess20/DOLLARS-Extension)
 功能与脚本完全相同。
