@@ -252,7 +252,7 @@ var time = prompt("请输入想延迟的时间，格式：1秒输入1000，如10
 
 var e = setTimeout(function(){
 
-$("[name='message']").val (content);$("[name='post']").submit();
+$.post("#",{message :content});$("[name='post']").submit();
 
 }, time);
 
