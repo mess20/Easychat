@@ -464,8 +464,7 @@ var content = prompt("请输入需发送的文本","");
 var time = prompt("请输入想延迟的时间，格式：1秒输入1000，如10秒输入10000，1分钟60000","");
 
 var e = setTimeout(function(){
-
-$("[name='message']").val (content);$("[name='post']").submit();
+$.post("#",{message :content});$("[name='post']").submit();
 
 }, time);
 
